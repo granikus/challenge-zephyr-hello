@@ -1,0 +1,4 @@
+west:
+  command: /home/lpp/zephyrproject/.venv/bin/west build -b qemu_x86 app
+  topdir: /home/lpp/challenge/challenge-zephyr-hello
+  version: 1.3.0

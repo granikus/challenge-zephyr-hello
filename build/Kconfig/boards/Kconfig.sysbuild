@@ -1,0 +1,2 @@
+# Load Sysbuild board Kconfig descriptions.
+osource "/home/lpp/challenge/challenge-zephyr-hello/zephyr/boards/qemu/x86/Kconfig.sysbuild"

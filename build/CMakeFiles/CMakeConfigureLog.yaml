@@ -1,0 +1,1737 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:228 (message)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/kernel.cmake:128 (project)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    message: |
+      The target system is: Generic - 4.1.99 - x86
+      The host system is: Linux - 6.11.0-21-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/kernel.cmake:128 (project)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc 
+      Build flags: -m32
+      Id flags:  
+      
+      The output was:
+      0
+      /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/../../../../x86_64-zephyr-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000008048074
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/3.28.3/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/kernel.cmake:128 (project)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-g++ 
+      Build flags: -m32
+      Id flags:  
+      
+      The output was:
+      0
+      /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/../../../../x86_64-zephyr-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000008048074
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/3.28.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1131 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/kernel.cmake:134 (enable_language)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      x86_64-zephyr-elf-gcc (Zephyr SDK 0.17.0) 12.2.0
+      Copyright (C) 2022 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/kernel.cmake:144 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-IxXsG7"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-IxXsG7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-IxXsG7'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_2dfca
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -o CMakeFiles/cmTC_2dfca.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-IxXsG7/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_2dfca.dir/src.c.obj -o cmTC_2dfca   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2593 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/compiler/gcc/compiler_flags.cmake:36 (check_set_compiler_property)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/kernel.cmake:152 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-GftvM7"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-GftvM7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wall_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-GftvM7'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_776dc
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_Wall_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -Wall -o CMakeFiles/cmTC_776dc.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-GftvM7/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_776dc.dir/src.c.obj -o cmTC_776dc   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2593 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/compiler/gcc/compiler_flags.cmake:36 (check_set_compiler_property)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/kernel.cmake:152 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-zkrTND"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-zkrTND"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wformat__Wformat_security_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-zkrTND'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_d04d8
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_Wformat__Wformat_security_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -Wformat -Wformat-security -o CMakeFiles/cmTC_d04d8.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-zkrTND/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_d04d8.dir/src.c.obj -o cmTC_d04d8   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2593 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/compiler/gcc/compiler_flags.cmake:36 (check_set_compiler_property)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/kernel.cmake:152 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-C7bYih"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-C7bYih"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wformat__Wformat_zero_length_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-C7bYih'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_89148
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_Wformat__Wformat_zero_length_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -Wformat -Wformat-zero-length -o CMakeFiles/cmTC_89148.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-C7bYih/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_89148.dir/src.c.obj -o cmTC_89148   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2593 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/compiler/gcc/compiler_flags.cmake:43 (check_set_compiler_property)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/kernel.cmake:152 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-3Q8Xes"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-3Q8Xes"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wdouble_promotion_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-3Q8Xes'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_1bd01
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_Wdouble_promotion_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -Wdouble-promotion -o CMakeFiles/cmTC_1bd01.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-3Q8Xes/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_1bd01.dir/src.c.obj -o cmTC_1bd01   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2593 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/compiler/gcc/compiler_flags.cmake:45 (check_set_compiler_property)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/kernel.cmake:152 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-hYvdDJ"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-hYvdDJ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wpointer_sign_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-hYvdDJ'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_18e73
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_Wpointer_sign_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -Wpointer-sign -o CMakeFiles/cmTC_18e73.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-hYvdDJ/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_18e73.dir/src.c.obj -o cmTC_18e73   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2593 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/compiler/gcc/compiler_flags.cmake:48 (check_set_compiler_property)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/kernel.cmake:152 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-XrxRg8"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-XrxRg8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wpointer_arith_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-XrxRg8'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_8ee45
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_Wpointer_arith_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -Wpointer-arith -o CMakeFiles/cmTC_8ee45.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-XrxRg8/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_8ee45.dir/src.c.obj -o cmTC_8ee45   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2593 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/compiler/gcc/compiler_flags.cmake:51 (check_set_compiler_property)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/kernel.cmake:152 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-G1iNSi"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-G1iNSi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wexpansion_to_defined_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-G1iNSi'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_24162
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_Wexpansion_to_defined_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -Wexpansion-to-defined -o CMakeFiles/cmTC_24162.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-G1iNSi/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_24162.dir/src.c.obj -o cmTC_24162   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2593 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/compiler/gcc/compiler_flags.cmake:61 (check_set_compiler_property)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/kernel.cmake:152 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-utgwUu"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-utgwUu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wlogical_op_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-utgwUu'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_15c56
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_Wlogical_op_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -Wlogical-op -o CMakeFiles/cmTC_15c56.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-utgwUu/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_15c56.dir/src.c.obj -o cmTC_15c56   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2593 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/compiler/gcc/compiler_flags.cmake:61 (check_set_compiler_property)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/kernel.cmake:152 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-3JJ9eX"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-3JJ9eX"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wmissing_field_initializers_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-3JJ9eX'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_bd950
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_Wmissing_field_initializers_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -Wmissing-field-initializers -o CMakeFiles/cmTC_bd950.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-3JJ9eX/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_bd950.dir/src.c.obj -o cmTC_bd950   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2593 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/compiler/gcc/compiler_flags.cmake:77 (check_set_compiler_property)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/kernel.cmake:152 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-hlWsqO"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-hlWsqO"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wpacked_bitfield_compat_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-hlWsqO'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_13dd3
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_Wpacked_bitfield_compat_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -Wpacked-bitfield-compat -o CMakeFiles/cmTC_13dd3.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-hlWsqO/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_13dd3.dir/src.c.obj -o cmTC_13dd3   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2593 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/compiler/gcc/compiler_flags.cmake:77 (check_set_compiler_property)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/kernel.cmake:152 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-QneSwv"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-QneSwv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wvla_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-QneSwv'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_c0d74
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_Wvla_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -Wvla -o CMakeFiles/cmTC_c0d74.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-QneSwv/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_c0d74.dir/src.c.obj -o cmTC_c0d74   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2593 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/compiler/gcc/compiler_flags.cmake:96 (check_set_compiler_property)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/kernel.cmake:152 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-zaOGBl"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-zaOGBl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Wunused_but_set_variable_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-zaOGBl'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_642b7
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_Wunused_but_set_variable_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -Wunused-but-set-variable -o CMakeFiles/cmTC_642b7.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-zaOGBl/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_642b7.dir/src.c.obj -o cmTC_642b7   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2593 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/compiler/gcc/compiler_flags.cmake:98 (check_set_compiler_property)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/kernel.cmake:152 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-A5my2A"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-A5my2A"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_Werror_implicit_int_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-A5my2A'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_3da19
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_Werror_implicit_int_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -Werror=implicit-int -o CMakeFiles/cmTC_3da19.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-A5my2A/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_3da19.dir/src.c.obj -o cmTC_3da19   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2593 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/compiler/gcc/compiler_flags.cmake:125 (check_set_compiler_property)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/kernel.cmake:152 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-Al3tWE"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-Al3tWE"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fno_printf_return_value_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-Al3tWE'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_9bf6a
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_fno_printf_return_value_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -fno-printf-return-value -o CMakeFiles/cmTC_9bf6a.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-Al3tWE/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_9bf6a.dir/src.c.obj -o cmTC_9bf6a   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2593 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/compiler/gcc/compiler_flags.cmake:183 (check_set_compiler_property)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/kernel.cmake:152 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-WigK3B"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-WigK3B"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_mstack_protector_guard_global_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-WigK3B'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_9c828
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_mstack_protector_guard_global_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -mstack-protector-guard=global -o CMakeFiles/cmTC_9c828.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-WigK3B/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_9c828.dir/src.c.obj -o cmTC_9c828   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2593 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/compiler/gcc/compiler_flags.cmake:201 (check_set_compiler_property)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/kernel.cmake:152 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-m1qK7a"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-m1qK7a"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fno_freestanding_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-m1qK7a'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_6b96b
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_fno_freestanding_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -fno-freestanding -o CMakeFiles/cmTC_6b96b.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-m1qK7a/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_6b96b.dir/src.c.obj -o cmTC_6b96b   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2593 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/compiler/gcc/compiler_flags.cmake:204 (check_set_compiler_property)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/kernel.cmake:152 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-7CRlWy"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-7CRlWy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_ffreestanding_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-7CRlWy'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_05585
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_ffreestanding_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -ffreestanding -o CMakeFiles/cmTC_05585.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-7CRlWy/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_05585.dir/src.c.obj -o cmTC_05585   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2593 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/compiler/gcc/compiler_flags.cmake:220 (check_set_compiler_property)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/kernel.cmake:152 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-F1JYwY"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-F1JYwY"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_gdwarf_4_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-F1JYwY'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_274e5
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_gdwarf_4_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -gdwarf-4 -o CMakeFiles/cmTC_274e5.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-F1JYwY/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_274e5.dir/src.c.obj -o cmTC_274e5   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2593 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/compiler/gcc/compiler_flags.cmake:239 (check_set_compiler_property)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/target_toolchain_flags.cmake:42 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/kernel.cmake:152 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-JxNxbW"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-JxNxbW"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fdiagnostics_color_always_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-JxNxbW'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_86cc4
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_fdiagnostics_color_always_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -fdiagnostics-color=always -o CMakeFiles/cmTC_86cc4.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-JxNxbW/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_86cc4.dir/src.c.obj -o cmTC_86cc4   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2515 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/linker/ld/linker_flags.cmake:5 (check_set_linker_property)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/target_toolchain_flags.cmake:43 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/kernel.cmake:152 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-zvXDr2"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-zvXDr2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___gc_sections"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-zvXDr2'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_d64ca
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___gc_sections  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -Wl,--gc-sections -o CMakeFiles/cmTC_d64ca.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-zvXDr2/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -Wl,--gc-sections  CMakeFiles/cmTC_d64ca.dir/src.c.obj -o cmTC_d64ca   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2515 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/linker/ld/linker_flags.cmake:5 (check_set_linker_property)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/target_toolchain_flags.cmake:43 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/kernel.cmake:152 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-ZqQtyu"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-ZqQtyu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___build_id_none"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-ZqQtyu'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_5b854
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___build_id_none  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -Wl,--build-id=none -o CMakeFiles/cmTC_5b854.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-ZqQtyu/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -Wl,--build-id=none  CMakeFiles/cmTC_5b854.dir/src.c.obj -o cmTC_5b854   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2515 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/linker/ld/linker_flags.cmake:10 (check_set_linker_property)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/target_toolchain_flags.cmake:43 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/kernel.cmake:152 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-d1607f"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-d1607f"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__nostdlib"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-d1607f'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_c72e9
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__nostdlib  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -nostdlib -o CMakeFiles/cmTC_c72e9.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-d1607f/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -nostdlib  CMakeFiles/cmTC_c72e9.dir/src.c.obj -o cmTC_c72e9   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2515 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/linker/ld/linker_flags.cmake:10 (check_set_linker_property)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/target_toolchain_flags.cmake:43 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/kernel.cmake:152 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-gfsaTW"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-gfsaTW"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__static"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-gfsaTW'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_17fff
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__static  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -static -o CMakeFiles/cmTC_17fff.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-gfsaTW/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -static  CMakeFiles/cmTC_17fff.dir/src.c.obj -o cmTC_17fff   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2515 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/linker/ld/linker_flags.cmake:10 (check_set_linker_property)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/target_toolchain_flags.cmake:43 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/kernel.cmake:152 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-jltrrY"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-jltrrY"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl__X"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-jltrrY'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_2a27c
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl__X  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -Wl,-X -o CMakeFiles/cmTC_2a27c.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-jltrrY/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -Wl,-X  CMakeFiles/cmTC_2a27c.dir/src.c.obj -o cmTC_2a27c   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2515 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/linker/ld/linker_flags.cmake:10 (check_set_linker_property)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/target_toolchain_flags.cmake:43 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/kernel.cmake:152 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-8dWFAq"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-8dWFAq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl__N"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-8dWFAq'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_90a55
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl__N  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -Wl,-N -o CMakeFiles/cmTC_90a55.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-8dWFAq/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -Wl,-N  CMakeFiles/cmTC_90a55.dir/src.c.obj -o cmTC_90a55   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2515 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/linker/ld/linker_flags.cmake:17 (check_set_linker_property)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/target_toolchain_flags.cmake:43 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/kernel.cmake:152 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-yDA7SH"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-yDA7SH"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___orphan_handling_warn"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-yDA7SH'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_dae05
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___orphan_handling_warn  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -Wl,--orphan-handling=warn -o CMakeFiles/cmTC_dae05.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-yDA7SH/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -Wl,--orphan-handling=warn  CMakeFiles/cmTC_dae05.dir/src.c.obj -o cmTC_dae05   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2515 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/linker/ld/linker_flags.cmake:21 (check_set_linker_property)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/target_toolchain_flags.cmake:43 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/kernel.cmake:152 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-CIUI0i"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-CIUI0i"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___orphan_handling_error"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-CIUI0i'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_2a085
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___orphan_handling_error  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -Wl,--orphan-handling=error -o CMakeFiles/cmTC_2a085.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-CIUI0i/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -Wl,--orphan-handling=error  CMakeFiles/cmTC_2a085.dir/src.c.obj -o cmTC_2a085   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2515 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/linker/ld/linker_flags.cmake:25 (check_set_linker_property)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/target_toolchain_flags.cmake:43 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/kernel.cmake:152 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-M59Q6v"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-M59Q6v"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___print_memory_usage"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-M59Q6v'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_74edf
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___print_memory_usage  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -Wl,--print-memory-usage -o CMakeFiles/cmTC_74edf.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-M59Q6v/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -Wl,--print-memory-usage  CMakeFiles/cmTC_74edf.dir/src.c.obj -o cmTC_74edf   && :
+        Memory region         Used Size  Region Size  %age Used
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2515 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/linker/ld/linker_flags.cmake:41 (check_set_linker_property)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/target_toolchain_flags.cmake:43 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/kernel.cmake:152 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-qIknzB"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-qIknzB"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___no_relax"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-qIknzB'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_e5d5f
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___no_relax  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -Wl,--no-relax -o CMakeFiles/cmTC_e5d5f.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-qIknzB/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -Wl,--no-relax  CMakeFiles/cmTC_e5d5f.dir/src.c.obj -o cmTC_e5d5f   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2515 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/linker/ld/linker_flags.cmake:43 (check_set_linker_property)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/target_toolchain_flags.cmake:43 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/kernel.cmake:152 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-O37YJt"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-O37YJt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___sort_common_descending"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-O37YJt'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_88fbf
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___sort_common_descending  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -Wl,--sort-common=descending -o CMakeFiles/cmTC_88fbf.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-O37YJt/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -Wl,--sort-common=descending  CMakeFiles/cmTC_88fbf.dir/src.c.obj -o cmTC_88fbf   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2515 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/linker/ld/linker_flags.cmake:43 (check_set_linker_property)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/target_toolchain_flags.cmake:43 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/kernel.cmake:152 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-yFRFMv"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-yFRFMv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___sort_section_alignment"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-yFRFMv'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_4d679
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__Wl___sort_section_alignment  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -Wl,--sort-section=alignment -o CMakeFiles/cmTC_4d679.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-yFRFMv/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -Wl,--sort-section=alignment  CMakeFiles/cmTC_4d679.dir/src.c.obj -o cmTC_4d679   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2515 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/linker/ld/gcc/linker_flags.cmake:10 (check_set_linker_property)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/linker/ld/linker_flags.cmake:53 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/target_toolchain_flags.cmake:43 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/kernel.cmake:152 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/zephyr_default.cmake:140 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:2 (find_package)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-RGgwca"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-RGgwca"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__pg"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-RGgwca'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_1f13c
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__pg  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -pg -o CMakeFiles/cmTC_1f13c.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-RGgwca/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -pg  CMakeFiles/cmTC_1f13c.dir/src.c.obj -o cmTC_1f13c   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2393 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:164 (target_ld_options)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/CMakeLists.txt:392 (zephyr_ld_options)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-DtJLAi"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-DtJLAi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__m32"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-DtJLAi'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_b268a
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__m32  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -m32 -o CMakeFiles/cmTC_b268a.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-DtJLAi/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -m32  CMakeFiles/cmTC_b268a.dir/src.c.obj -o cmTC_b268a   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2393 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:164 (target_ld_options)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/CMakeLists.txt:392 (zephyr_ld_options)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-DPtyc5"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-DPtyc5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__msoft_float"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-DPtyc5'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_8d8fb
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__msoft_float  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -msoft-float -o CMakeFiles/cmTC_8d8fb.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-DPtyc5/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -msoft-float  CMakeFiles/cmTC_8d8fb.dir/src.c.obj -o cmTC_8d8fb   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2393 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:164 (target_ld_options)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/CMakeLists.txt:392 (zephyr_ld_options)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-DJBHmu"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-DJBHmu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-DJBHmu'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_5c93f
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd__fuse_ld_bfd  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -fuse-ld=bfd -o CMakeFiles/cmTC_5c93f.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-DJBHmu/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd -fuse-ld=bfd  CMakeFiles/cmTC_5c93f.dir/src.c.obj -o cmTC_5c93f   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2371 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2347 (target_cc_option_fallback)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:155 (target_cc_option)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/CMakeLists.txt:493 (zephyr_cc_option)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-pk77Cq"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-pk77Cq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fno_asynchronous_unwind_tables_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-pk77Cq'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_81081
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_fno_asynchronous_unwind_tables_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -fno-asynchronous-unwind-tables -o CMakeFiles/cmTC_81081.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-pk77Cq/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_81081.dir/src.c.obj -o cmTC_81081   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2371 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2347 (target_cc_option_fallback)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:155 (target_cc_option)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/CMakeLists.txt:501 (zephyr_cc_option)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-TcNMQx"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-TcNMQx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_ftls_model_local_exec_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-TcNMQx'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_2ad57
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_ftls_model_local_exec_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -ftls-model=local-exec -o CMakeFiles/cmTC_2ad57.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-TcNMQx/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_2ad57.dir/src.c.obj -o cmTC_2ad57   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2371 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2347 (target_cc_option_fallback)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:155 (target_cc_option)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/CMakeLists.txt:521 (zephyr_cc_option)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-8MSiRf"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-8MSiRf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fno_reorder_functions_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-8MSiRf'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_a7e9a
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_fno_reorder_functions_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -fno-reorder-functions -o CMakeFiles/cmTC_a7e9a.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-8MSiRf/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_a7e9a.dir/src.c.obj -o cmTC_a7e9a   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2371 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2347 (target_cc_option_fallback)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:155 (target_cc_option)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/CMakeLists.txt:528 (zephyr_cc_option)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-NCAflz"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-NCAflz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check__param_min_pagesize_0_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-NCAflz'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_9f104
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck__param_min_pagesize_0_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   --param=min-pagesize=0 -o CMakeFiles/cmTC_9f104.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-NCAflz/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_9f104.dir/src.c.obj -o cmTC_9f104   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2371 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2347 (target_cc_option_fallback)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:155 (target_cc_option)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/CMakeLists.txt:531 (zephyr_cc_option)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-KTJ6MU"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-KTJ6MU"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fno_defer_pop_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-KTJ6MU'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_4ecac
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_fno_defer_pop_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -fno-defer-pop -o CMakeFiles/cmTC_4ecac.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-KTJ6MU/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_4ecac.dir/src.c.obj -o cmTC_4ecac   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2371 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2347 (target_cc_option_fallback)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:155 (target_cc_option)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/CMakeLists.txt:550 (zephyr_cc_option)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-si8ufs"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-si8ufs"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fmacro_prefix_map__home_lpp_challenge_challenge_zephyr_hello_app_CMAKE_SOURCE_DIR_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-si8ufs'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_92df4
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_fmacro_prefix_map__home_lpp_challenge_challenge_zephyr_hello_app_CMAKE_SOURCE_DIR_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -fmacro-prefix-map=/home/lpp/challenge/challenge-zephyr-hello/app=CMAKE_SOURCE_DIR -o CMakeFiles/cmTC_92df4.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-si8ufs/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_92df4.dir/src.c.obj -o cmTC_92df4   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2371 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2347 (target_cc_option_fallback)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:155 (target_cc_option)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/CMakeLists.txt:551 (zephyr_cc_option)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-aYp9Iz"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-aYp9Iz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fmacro_prefix_map__home_lpp_challenge_challenge_zephyr_hello_zephyr_ZEPHYR_BASE_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-aYp9Iz'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_2ff3e
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_fmacro_prefix_map__home_lpp_challenge_challenge_zephyr_hello_zephyr_ZEPHYR_BASE_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -fmacro-prefix-map=/home/lpp/challenge/challenge-zephyr-hello/zephyr=ZEPHYR_BASE -o CMakeFiles/cmTC_2ff3e.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-aYp9Iz/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_2ff3e.dir/src.c.obj -o cmTC_2ff3e   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2371 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2347 (target_cc_option_fallback)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:155 (target_cc_option)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/CMakeLists.txt:553 (zephyr_cc_option)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-HgYr0W"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-HgYr0W"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fmacro_prefix_map__home_lpp_challenge_challenge_zephyr_hello_WEST_TOPDIR_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-HgYr0W'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_f5af3
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_fmacro_prefix_map__home_lpp_challenge_challenge_zephyr_hello_WEST_TOPDIR_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -fmacro-prefix-map=/home/lpp/challenge/challenge-zephyr-hello=WEST_TOPDIR -o CMakeFiles/cmTC_f5af3.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-HgYr0W/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_f5af3.dir/src.c.obj -o cmTC_f5af3   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2371 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2347 (target_cc_option_fallback)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:155 (target_cc_option)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/arch/common/CMakeLists.txt:40 (zephyr_cc_option)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-ly1U1d"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-ly1U1d"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_ffunction_sections_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-ly1U1d'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_8a8b6
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_ffunction_sections_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -ffunction-sections -o CMakeFiles/cmTC_8a8b6.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-ly1U1d/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_8a8b6.dir/src.c.obj -o cmTC_8a8b6   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2371 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2347 (target_cc_option_fallback)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:155 (target_cc_option)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/arch/common/CMakeLists.txt:40 (zephyr_cc_option)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-0ccXGN"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-0ccXGN"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_fdata_sections_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-0ccXGN'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_f47d8
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_fdata_sections_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -fdata-sections -o CMakeFiles/cmTC_f47d8.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-0ccXGN/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_f47d8.dir/src.c.obj -o cmTC_f47d8   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2371 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2347 (target_cc_option_fallback)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:155 (target_cc_option)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/arch/x86/ia32.cmake:10 (zephyr_cc_option)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/arch/x86/CMakeLists.txt:31 (include)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-JKdQa2"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-JKdQa2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_mpreferred_stack_boundary_2_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-JKdQa2'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_5eee1
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_mpreferred_stack_boundary_2_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -mpreferred-stack-boundary=2 -o CMakeFiles/cmTC_5eee1.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-JKdQa2/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_5eee1.dir/src.c.obj -o cmTC_5eee1   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2371 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2347 (target_cc_option_fallback)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:155 (target_cc_option)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/arch/x86/ia32.cmake:31 (zephyr_cc_option)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/arch/x86/CMakeLists.txt:31 (include)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-mlOF2k"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-mlOF2k"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_mno_mmx_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-mlOF2k'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_fe65c
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_mno_mmx_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -mno-mmx -o CMakeFiles/cmTC_fe65c.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-mlOF2k/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_fe65c.dir/src.c.obj -o cmTC_fe65c   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2332 (check_c_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:1191 (check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2371 (zephyr_check_compiler_flag)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:2347 (target_cc_option_fallback)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules/extensions.cmake:155 (target_cc_option)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/arch/x86/ia32.cmake:80 (zephyr_cc_option)"
+      - "/home/lpp/challenge/challenge-zephyr-hello/zephyr/arch/x86/CMakeLists.txt:31 (include)"
+    directories:
+      source: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-GuFXAv"
+      binary: "/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-GuFXAv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-m32 "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/lpp/challenge/challenge-zephyr-hello/zephyr/cmake/modules"
+    buildResult:
+      variable: "check_mno_sse_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd"
+      cached: true
+      stdout: |
+        Change Dir: '/home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-GuFXAv'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_1f529
+        [1/2] /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -Dcheck_mno_sse_C__nostartfiles__nostdlib__isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include___isystem___home_lpp_zephyr_sdk_0_17_0_x86_64_zephyr_elf_bin____lib_gcc_x86_64_zephyr_elf_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fuse_ld_bfd  -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd   -mno-sse -o CMakeFiles/cmTC_1f529.dir/src.c.obj -c /home/lpp/challenge/challenge-zephyr-hello/build/CMakeFiles/CMakeScratch/TryCompile-GuFXAv/src.c
+        [2/2] : && /home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/x86_64-zephyr-elf-gcc -m32  -nostartfiles -nostdlib -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include" -isystem "/home/lpp/zephyr-sdk-0.17.0/x86_64-zephyr-elf/bin/../lib/gcc/x86_64-zephyr-elf/12.2.0/include-fixed" -Wl,--unresolved-symbols=ignore-in-object-files -Wl,--entry=0 -fuse-ld=bfd  CMakeFiles/cmTC_1f529.dir/src.c.obj -o cmTC_1f529   && :
+        
+      exitCode: 0
+...
